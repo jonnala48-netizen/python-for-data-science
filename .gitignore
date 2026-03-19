@@ -1,0 +1,75 @@
+# =============================================================
+# Python for Data Science — .gitignore
+# =============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+*.conda
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Data (large files) ---
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+!datasets/.gitkeep
+
+# --- Models ---
+*.model
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Secrets ---
+.env
+.env.local
+*.key
+*.pem
+config/secrets.*
